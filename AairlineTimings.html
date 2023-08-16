@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+ 
+<html>
+
+
+
+ 
+<head>
+ 
+    <title>Airplane Timing webpage</title>
+ 
+    <!--Bootstrap CSS Link-->
+ 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+ 
+</head>
+ 
+<style>
+    h1 {
+ 
+        color: #90caf7;
+ 
+    }
+
+
+
+ 
+    h2 {
+ 
+        color: red;
+ 
+    }
+
+
+
+ 
+    p {
+ 
+        color: blue;
+ 
+        font-size: 24px;
+ 
+        font-family: Arial, Helvetica, sans-serif;
+ 
+    }
+
+
+
+ 
+    nav {
+ 
+        background-color: #cea3f7;
+        font-size: 23px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+ 
+    }
+
+
+
+ 
+    img {
+ 
+        border-radius: 30px;
+ 
+        border-color: red;
+ 
+        width: 70%;
+ 
+    }
+
+
+
+ 
+    footer {
+ 
+        background-color: black;
+ 
+        color: yellow;
+
+
+
+ 
+    }
+ 
+    c {
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+    }
+ 
+    .button {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+</style>
+
+
+
+ 
+<body>
+ 
+    <header>
+ 
+        <h1>AirLine Timing</h1>
+ 
+    </header>
+ 
+    <section>
+ 
+        <nav>
+ 
+            <d> Want to find the best deals for a specific date without having to browse multiple sites?
+                Look no further as we have just the thing for you!
+            </d>
+ 
+        </nav>
+ 
+        <div class="container">
+ 
+            <div class="row">
+ 
+                <div class="col-sm-4">
+ 
+                    <h2>Singapore Airline</h2>
+ 
+                    <img src="sia.png" />
+
+
+
+ 
+                    <p>
+ 
+                        Choose date!
+ 
+                        <label for="start">Start date:</label>
+
+
+
+ 
+                        <input type="date" id="start" name="trip-start" value="2023-07-22" min="2023-01-01"
+                            max="2025-12-31"></br>
+                            <label for="Amount">Qty:</label>
+                            <input type="text" name="Qty" required>
+ 
+                    </p>
+ 
+                </div>
+
+
+
+ 
+                <div class="col-sm-4">
+ 
+                    <h2>Scoot</h2>
+ 
+                    <img src="scoot.png" />
+
+
+
+ 
+                    <p>
+ 
+                        Choose date!
+ 
+                        <label for="start">Start date:</label>
+
+
+
+ 
+                        <input type="date" id="start" name="trip-start" value="2023-07-22" min="2023-01-01"
+                            max="2025-12-31"></br>
+ 
+                        <label for="Amount">Qty:</label>
+                        <input type="text" name="Qty" required>
+                    </p>
+ 
+                </div>
+
+
+
+ 
+                <div class="col-sm-4">
+ 
+                    <h2>Jet Star Asia Airways</h2>
+ 
+                    <img src="jetstar.png" />
+
+
+
+ 
+                    <p>
+ 
+                        Choose date!
+ 
+                        <label for="start">Start date:</label>
+
+
+
+ 
+                        <input type="date" id="start" name="trip-start" value="2023-07-22" min="2023-01-01"
+                            max="2025-12-31"></br>
+                            <label for="Amount">Qty:</label>
+                            <input type="text" name="Qty" required>
+ 
+                    </p>
+ 
+                </div>
+ 
+            </div>
+ 
+        </div>
+        <article>
+            <c>Checkout once you have confirmed your select date.</c>
+            <button onclick="document.location='AaPS_Page.html'">CHECKOUT</button>
+        </article>
+    </section>
+ 
+    <footer>
+        <p>Need assistance? Contact us <a href="#">here</a>!</p>
+    </footer>
+ 
+</body>
+
+
+
+ 
+</html>
